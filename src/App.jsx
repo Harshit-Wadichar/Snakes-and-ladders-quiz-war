@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
-import { Dice, Quiz, Board, Info } from "./components";
+import { Dice, Quiz, Board, Info, HelpPage } from "./components";
 
 function App() {
   const [pos1, setPos1] = useState(1);
-  const [pos2, setPos2] = useState(1);
+  const [pos2, setPos2] = useState(30);
   const [r1, setr1] = useState(0);
   const [r2, setr2] = useState(0);
   const [w1, setw1] = useState(0);
@@ -99,9 +99,11 @@ function App() {
 
   return (
     <>
+
+    <HelpPage />
     
-      <div className="mx-auto p-5 rotate-90 sm:rotate-0 mt-10 sm:mt-0 items-center">
-        <div className="w-[160vw] sm:w-[95vw] grid grid-cols-[1fr_auto_1fr] items-start gap-6 justify-center ">
+      <div className="mx-auto rotate-90 p-5 sm:rotate-0 mt-10 sm:mt-0 items-center">
+        <div className="w-[90vh] sm:w-[95vw] grid grid-cols-[1fr_auto_1fr] items-start gap-6 justify-center ">
           {/* Player 1 Column */}
           <div className=" flex flex-col items-center gap-4 ">
             <Dice

@@ -42,7 +42,7 @@ const Quiz = forwardRef(({ onAnswer }, ref) => {
             key={idx}
             onPointerDown={() => checkAnswer(opt, 1)}
             disabled={optionsDisabled}
-            className="px-2 sm:px-4 py-1 text-sm sm:text-base font-semibold text-white bg-green-600 rounded-lg shadow-sm hover:bg-green-500 active:scale-95 disabled:bg-gray-300 disabled:text-gray-600 disabled:cursor-not-allowed transition"
+            className="px-4 sm:px-4 py-1 text-sm sm:text-base font-semibold text-white bg-green-600 rounded-lg shadow-sm hover:bg-green-500 active:scale-95 disabled:bg-gray-300 disabled:text-gray-600 disabled:cursor-not-allowed transition"
           >
             {opt}
           </button>
