@@ -3,7 +3,7 @@ import { Dice, Quiz, Board, Info, HelpPage } from "./components";
 
 function App() {
   const [pos1, setPos1] = useState(1);
-  const [pos2, setPos2] = useState(30);
+  const [pos2, setPos2] = useState(1);
   const [r1, setr1] = useState(0);
   const [r2, setr2] = useState(0);
   const [w1, setw1] = useState(0);
