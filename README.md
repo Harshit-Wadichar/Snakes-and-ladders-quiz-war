@@ -38,11 +38,6 @@ Players roll dice, solve math questions, and race to reach the finish line while
 
 ---
 
-## 🖼️ Screenshots (Coming Soon)
-_Add screenshots or gameplay GIFs here for better presentation._
-
----
-
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, Tailwind CSS, Bootstrap  
 - **Backend:** Node.js, Express.js, Socket.io  
