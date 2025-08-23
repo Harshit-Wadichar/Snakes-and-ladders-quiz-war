@@ -1,12 +1,59 @@
-# React + Vite
+# 🎲 Snakes & Ladders Quiz War  
+### 🧮 Math Adventure Edition  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive twist on the classic **Snakes & Ladders** board game, combined with **math quiz challenges**.  
+Players roll dice, solve math questions, and race to reach the finish line while navigating snakes and ladders.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🎲 Dice rolling mechanics with interactive UI  
+- ❓ Math quiz questions with multiple-choice answers  
+- ✅ Correct answers unlock the next turn  
+- 🔄 Incorrect answers require retry until correct  
+- 🐍 Snakes pull you down, 🪜 ladders lift you up  
+- 🏆 First player to reach **position 49 wins**  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📜 Game Rules
+- 🎲 Players roll dice simultaneously by clicking their dice button.  
+- 🔒 After rolling, the dice is disabled until a **correct answer** is given.  
+- ❓ Each roll triggers a **math question** with 4 options.  
+- ✅ Correct answers re-enable the dice button for the next turn.  
+- 🔄 Incorrect answers ask a **new question** until answered correctly.  
+- ➡️ Players move forward based on dice roll value.  
+- 🐍 Landing on a **snake’s head** → slide down to the tail.  
+- 🪜 Landing at a **ladder base** → climb to the top.  
+- 🏆 First to **reach position 49** is the winner.  
+
+---
+
+## 🔁 Game Flow
+1. 🎲 **Roll Dice**  
+2. 🧮 **Solve Math Question**  
+3. ➡️ **Move Player Piece**  
+4. 🎯 **Trigger Snakes or Ladders Events**  
+5. 🏁 **Reach Position 49 → Win!**  
+
+---
+
+## 🖼️ Screenshots (Coming Soon)
+_Add screenshots or gameplay GIFs here for better presentation._
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS, Bootstrap  
+- **Backend:** Node.js, Express.js, Socket.io  
+- **Database:** MongoDB / SQL  
+- **Other Tools:** Git & GitHub  
+
+---
+
+## 🌐 Live Demo
+👉 Play here: [Snakes & Ladders Quiz War on Vercel]( https://snakes-and-ladders-quiz-war.vercel.app/)  
+
+---
+
+📌 *© 2025 Snakes & Ladders Quiz War – Math Adventure Edition*  
